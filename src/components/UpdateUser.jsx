@@ -73,7 +73,7 @@ function UpdateUser() {
           </div>
           <div className='mb-2'>
             <label htmlFor=''>Age</label>
-            <input type='text' placeholder='Enter Age' className='form-control' 
+            <input type='number' placeholder='Enter Age' className='form-control' 
             value={age} // display value of age
             onChange={(e) => setAge(e.target.value)}  // target value for changes
             required/>
